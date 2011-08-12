@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>main.html</Path>
+      <Subnodes>
+       <Node>
+        <Name>PieChart</Name>
+        <Path>index.html</Path>
+       </Node>
+       <Node>
+        <Name>Class List</Name>
+        <Path>annotated.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>GraphView</Name>
+          <Path>interface_graph_view.html</Path>
+         </Node>
+         <Node>
+          <Name>PieChartAppDelegate</Name>
+          <Path>interface_pie_chart_app_delegate.html</Path>
+         </Node>
+         <Node>
+          <Name>PieChartViewController</Name>
+          <Path>interface_pie_chart_view_controller.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Class Index</Name>
+        <Path>classes.html</Path>
+       </Node>
+       <Node>
+        <Name>Class Members</Name>
+        <Path>functions.html</Path>
+       </Node>
+       <Node>
+        <Name>File List</Name>
+        <Path>files.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/GraphView.h</Name>
+          <Path>_graph_view_8h.html</Path>
+         </Node>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/GraphView.m</Name>
+          <Path>_graph_view_8m.html</Path>
+         </Node>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/PieChartAppDelegate.h</Name>
+          <Path>_pie_chart_app_delegate_8h.html</Path>
+         </Node>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/PieChartAppDelegate.m</Name>
+          <Path>_pie_chart_app_delegate_8m.html</Path>
+         </Node>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/PieChartViewController.h</Name>
+          <Path>_pie_chart_view_controller_8h.html</Path>
+         </Node>
+         <Node>
+          <Name>/Users/aaxe/Documents/projects/PieChart/PieChart/PieChartViewController.m</Name>
+          <Path>_pie_chart_view_controller_8m.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>

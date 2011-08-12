@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0D1DE7134417F5001FA612 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DE6134417F5001FA612 /* UIKit.framework */; };
+		5E0D1DE9134417F5001FA612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DE8134417F5001FA612 /* Foundation.framework */; };
+		5E0D1DEB134417F5001FA612 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DEA134417F5001FA612 /* CoreGraphics.framework */; };
+		5E0D1DF1134417F5001FA612 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D1DEF134417F5001FA612 /* InfoPlist.strings */; };
+		5E0D1DF4134417F5001FA612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1DF3134417F5001FA612 /* main.m */; };
+		5E0D1DF7134417F5001FA612 /* PieChartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1DF6134417F5001FA612 /* PieChartAppDelegate.m */; };
+		5E0D1DFA134417F5001FA612 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D1DF8134417F5001FA612 /* MainWindow.xib */; };
+		5E0D1DFD134417F5001FA612 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1DFC134417F5001FA612 /* PieChartViewController.m */; };
+		5E0D1E00134417F5001FA612 /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D1DFE134417F5001FA612 /* PieChartViewController.xib */; };
+		5E0D1E2113441832001FA612 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1E2013441832001FA612 /* GraphView.m */; };
+		5E6D28C313F229BE00A317C9 /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF093B713F21FF7008D169B /* UnitTests.m */; };
+		5EF093AB13F21FF6008D169B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF093AA13F21FF6008D169B /* SenTestingKit.framework */; };
+		5EF093AC13F21FF6008D169B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DE6134417F5001FA612 /* UIKit.framework */; };
+		5EF093AD13F21FF6008D169B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DE8134417F5001FA612 /* Foundation.framework */; };
+		5EF093AE13F21FF6008D169B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0D1DEA134417F5001FA612 /* CoreGraphics.framework */; };
+		5EF093B413F21FF7008D169B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF093B213F21FF7008D169B /* InfoPlist.strings */; };
+		5EF093B613F21FF7008D169B /* UnitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5EF093B513F21FF7008D169B /* UnitTests.h */; };
+		5EF093BD13F2203E008D169B /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1E2013441832001FA612 /* GraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E0D1DE2134417F5001FA612 /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0D1DE6134417F5001FA612 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E0D1DE8134417F5001FA612 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E0D1DEA134417F5001FA612 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E0D1DEE134417F5001FA612 /* PieChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PieChart-Info.plist"; sourceTree = "<group>"; };
+		5E0D1DF0134417F5001FA612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E0D1DF2134417F5001FA612 /* PieChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PieChart-Prefix.pch"; sourceTree = "<group>"; };
+		5E0D1DF3134417F5001FA612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E0D1DF5134417F5001FA612 /* PieChartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartAppDelegate.h; sourceTree = "<group>"; };
+		5E0D1DF6134417F5001FA612 /* PieChartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartAppDelegate.m; sourceTree = "<group>"; };
+		5E0D1DF9134417F5001FA612 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5E0D1DFB134417F5001FA612 /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		5E0D1DFC134417F5001FA612 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		5E0D1DFF134417F5001FA612 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PieChartViewController.xib; sourceTree = "<group>"; };
+		5E0D1E1F13441832001FA612 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		5E0D1E2013441832001FA612 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		5EB0C34113F25CAA0093FCA6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		5EF093A913F21FF6008D169B /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF093AA13F21FF6008D169B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5EF093B113F21FF7008D169B /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		5EF093B313F21FF7008D169B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EF093B513F21FF7008D169B /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
+		5EF093B713F21FF7008D169B /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		5EF093B913F21FF7008D169B /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0D1DDF134417F5001FA612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D1DE7134417F5001FA612 /* UIKit.framework in Frameworks */,
+				5E0D1DE9134417F5001FA612 /* Foundation.framework in Frameworks */,
+				5E0D1DEB134417F5001FA612 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF093A513F21FF6008D169B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF093AB13F21FF6008D169B /* SenTestingKit.framework in Frameworks */,
+				5EF093AC13F21FF6008D169B /* UIKit.framework in Frameworks */,
+				5EF093AD13F21FF6008D169B /* Foundation.framework in Frameworks */,
+				5EF093AE13F21FF6008D169B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0D1DD7134417F5001FA612 = {
+			isa = PBXGroup;
+			children = (
+				5E0D1DEC134417F5001FA612 /* PieChart */,
+				5EF093AF13F21FF6008D169B /* UnitTests */,
+				5E0D1DE5134417F5001FA612 /* Frameworks */,
+				5E0D1DE3134417F5001FA612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0D1DE3134417F5001FA612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D1DE2134417F5001FA612 /* PieChart.app */,
+				5EF093A913F21FF6008D169B /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D1DE5134417F5001FA612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D1DE6134417F5001FA612 /* UIKit.framework */,
+				5E0D1DE8134417F5001FA612 /* Foundation.framework */,
+				5E0D1DEA134417F5001FA612 /* CoreGraphics.framework */,
+				5EF093AA13F21FF6008D169B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0D1DEC134417F5001FA612 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				5EB0C34113F25CAA0093FCA6 /* README */,
+				5E0D1E1F13441832001FA612 /* GraphView.h */,
+				5E0D1E2013441832001FA612 /* GraphView.m */,
+				5E0D1DF5134417F5001FA612 /* PieChartAppDelegate.h */,
+				5E0D1DF6134417F5001FA612 /* PieChartAppDelegate.m */,
+				5E0D1DF8134417F5001FA612 /* MainWindow.xib */,
+				5E0D1DFB134417F5001FA612 /* PieChartViewController.h */,
+				5E0D1DFC134417F5001FA612 /* PieChartViewController.m */,
+				5E0D1DFE134417F5001FA612 /* PieChartViewController.xib */,
+				5E0D1DED134417F5001FA612 /* Supporting Files */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		5E0D1DED134417F5001FA612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D1DEE134417F5001FA612 /* PieChart-Info.plist */,
+				5E0D1DEF134417F5001FA612 /* InfoPlist.strings */,
+				5E0D1DF2134417F5001FA612 /* PieChart-Prefix.pch */,
+				5E0D1DF3134417F5001FA612 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF093AF13F21FF6008D169B /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF093B513F21FF7008D169B /* UnitTests.h */,
+				5EF093B713F21FF7008D169B /* UnitTests.m */,
+				5EF093B013F21FF7008D169B /* Supporting Files */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		5EF093B013F21FF7008D169B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF093B113F21FF7008D169B /* UnitTests-Info.plist */,
+				5EF093B213F21FF7008D169B /* InfoPlist.strings */,
+				5EF093B913F21FF7008D169B /* UnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0D1DE1134417F5001FA612 /* PieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0D1E19134417F5001FA612 /* Build configuration list for PBXNativeTarget "PieChart" */;
+			buildPhases = (
+				5E0D1DDE134417F5001FA612 /* Sources */,
+				5E0D1DDF134417F5001FA612 /* Frameworks */,
+				5E0D1DE0134417F5001FA612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieChart;
+			productName = PieChart;
+			productReference = 5E0D1DE2134417F5001FA612 /* PieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EF093A813F21FF6008D169B /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF093BA13F21FF7008D169B /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				5EF093A413F21FF6008D169B /* Sources */,
+				5EF093A513F21FF6008D169B /* Frameworks */,
+				5EF093A613F21FF6008D169B /* Resources */,
+				5EF093A713F21FF6008D169B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 5EF093A913F21FF6008D169B /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E0D1DD9134417F5001FA612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Team Axe, LLC";
+			};
+			buildConfigurationList = 5E0D1DDC134417F5001FA612 /* Build configuration list for PBXProject "PieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E0D1DD7134417F5001FA612;
+			productRefGroup = 5E0D1DE3134417F5001FA612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0D1DE1134417F5001FA612 /* PieChart */,
+				5EF093A813F21FF6008D169B /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E0D1DE0134417F5001FA612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D1DF1134417F5001FA612 /* InfoPlist.strings in Resources */,
+				5E0D1DFA134417F5001FA612 /* MainWindow.xib in Resources */,
+				5E0D1E00134417F5001FA612 /* PieChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF093A613F21FF6008D169B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF093B413F21FF7008D169B /* InfoPlist.strings in Resources */,
+				5EF093B613F21FF7008D169B /* UnitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EF093A713F21FF6008D169B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0D1DDE134417F5001FA612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D1DF4134417F5001FA612 /* main.m in Sources */,
+				5E0D1DF7134417F5001FA612 /* PieChartAppDelegate.m in Sources */,
+				5E0D1DFD134417F5001FA612 /* PieChartViewController.m in Sources */,
+				5E0D1E2113441832001FA612 /* GraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF093A413F21FF6008D169B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF093BD13F2203E008D169B /* GraphView.m in Sources */,
+				5E6D28C313F229BE00A317C9 /* UnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E0D1DEF134417F5001FA612 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0D1DF0134417F5001FA612 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E0D1DF8134417F5001FA612 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0D1DF9134417F5001FA612 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5E0D1DFE134417F5001FA612 /* PieChartViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0D1DFF134417F5001FA612 /* en */,
+			);
+			name = PieChartViewController.xib;
+			sourceTree = "<group>";
+		};
+		5EF093B213F21FF7008D169B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF093B313F21FF7008D169B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E0D1E17134417F5001FA612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E0D1E18134417F5001FA612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5E0D1E1A134417F5001FA612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieChart/PieChart-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "PieChart/PieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E0D1E1B134417F5001FA612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieChart/PieChart-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "PieChart/PieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5EF093BB13F21FF7008D169B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5EF093BC13F21FF7008D169B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0D1DDC134417F5001FA612 /* Build configuration list for PBXProject "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D1E17134417F5001FA612 /* Debug */,
+				5E0D1E18134417F5001FA612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E0D1E19134417F5001FA612 /* Build configuration list for PBXNativeTarget "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D1E1A134417F5001FA612 /* Debug */,
+				5E0D1E1B134417F5001FA612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF093BA13F21FF7008D169B /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF093BB13F21FF7008D169B /* Debug */,
+				5EF093BC13F21FF7008D169B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E0D1DD9134417F5001FA612 /* Project object */;
+}

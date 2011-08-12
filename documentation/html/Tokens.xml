@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>GraphView</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>GraphView</Scope>
+    </TokenIdentifier>
+    <Path>interface_graph_view.html</Path>
+    <Abstract>Graph UIView.</Abstract>
+    <DeclaredIn>GraphView.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pieValues</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>GraphView</Scope>
+    </TokenIdentifier>
+    <Path>interface_graph_view.html</Path>
+    <Anchor>aca6a5636153cffbd61079028dd252733</Anchor>
+    <Abstract>float pieValues in number of degrees out of 360</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pieColors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>GraphView</Scope>
+    </TokenIdentifier>
+    <Path>interface_graph_view.html</Path>
+    <Anchor>a171ac2df8701689b347be1ada34fd07a</Anchor>
+    <Abstract>UIColors that map to each Value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PieChartAppDelegate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PieChartAppDelegate</Scope>
+    </TokenIdentifier>
+    <Path>interface_pie_chart_app_delegate.html</Path>
+    <Abstract>PieChartAppDelegate.m App delegate for simple Pie Chart.</Abstract>
+    <DeclaredIn>PieChartAppDelegate.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PieChartViewController</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PieChartViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_pie_chart_view_controller.html</Path>
+    <Abstract>PieChartViewController.h Controller which will generate the View that will house the pie chart...</Abstract>
+    <DeclaredIn>PieChartViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pieChartLabel</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PieChartViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_pie_chart_view_controller.html</Path>
+    <Anchor>a3a7fe0ed7d2652c0bb3a0ee5905f27ae</Anchor>
+    <Abstract>Label to display values of slices.</Abstract>
+  </Token>
+</Tokens>
